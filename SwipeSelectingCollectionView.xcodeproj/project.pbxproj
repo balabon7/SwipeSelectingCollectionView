@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		1DB119D52A01181E00FBA764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119D42A01181E00FBA764 /* AppDelegate.swift */; };
 		1DB119D72A01181E00FBA764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119D62A01181E00FBA764 /* SceneDelegate.swift */; };
-		1DB119D92A01181E00FBA764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119D82A01181E00FBA764 /* ViewController.swift */; };
+		1DB119D92A01181E00FBA764 /* SwipeSelectingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119D82A01181E00FBA764 /* SwipeSelectingCollectionView.swift */; };
 		1DB119DC2A01181E00FBA764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB119DA2A01181E00FBA764 /* Main.storyboard */; };
 		1DB119DE2A01181F00FBA764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB119DD2A01181F00FBA764 /* Assets.xcassets */; };
 		1DB119E12A01181F00FBA764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB119DF2A01181F00FBA764 /* LaunchScreen.storyboard */; };
 		1DB119EC2A01181F00FBA764 /* SwipeSelectingCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119EB2A01181F00FBA764 /* SwipeSelectingCollectionViewTests.swift */; };
 		1DB119F62A01181F00FBA764 /* SwipeSelectingCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119F52A01181F00FBA764 /* SwipeSelectingCollectionViewUITests.swift */; };
 		1DB119F82A01181F00FBA764 /* SwipeSelectingCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB119F72A01181F00FBA764 /* SwipeSelectingCollectionViewUITestsLaunchTests.swift */; };
+		1DB11A052A01188400FBA764 /* SwipeSelectingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB11A042A01188400FBA764 /* SwipeSelectingGestureRecognizer.swift */; };
+		1DB11A072A0118CF00FBA764 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB11A062A0118CF00FBA764 /* CollectionViewController.swift */; };
+		1DB11A092A0118F200FBA764 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB11A082A0118F200FBA764 /* CollectionViewCell.swift */; };
+		1DFA99682A012B04003CF4C7 /* simulator_screenshot_7EB52209-2853-4CCD-9A53-9351D708AD4B.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DFA99672A012B04003CF4C7 /* simulator_screenshot_7EB52209-2853-4CCD-9A53-9351D708AD4B.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		1DB119D12A01181E00FBA764 /* SwipeSelectingCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeSelectingCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB119D42A01181E00FBA764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DB119D62A01181E00FBA764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1DB119D82A01181E00FBA764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DB119D82A01181E00FBA764 /* SwipeSelectingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSelectingCollectionView.swift; sourceTree = "<group>"; };
 		1DB119DB2A01181E00FBA764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DB119DD2A01181F00FBA764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB119E02A01181F00FBA764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		1DB119F12A01181F00FBA764 /* SwipeSelectingCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeSelectingCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB119F52A01181F00FBA764 /* SwipeSelectingCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSelectingCollectionViewUITests.swift; sourceTree = "<group>"; };
 		1DB119F72A01181F00FBA764 /* SwipeSelectingCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSelectingCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DB11A042A01188400FBA764 /* SwipeSelectingGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSelectingGestureRecognizer.swift; sourceTree = "<group>"; };
+		1DB11A062A0118CF00FBA764 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1DB11A082A0118F200FBA764 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1DFA99672A012B04003CF4C7 /* simulator_screenshot_7EB52209-2853-4CCD-9A53-9351D708AD4B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_7EB52209-2853-4CCD-9A53-9351D708AD4B.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 		1DB119D32A01181E00FBA764 /* SwipeSelectingCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				1DFA99672A012B04003CF4C7 /* simulator_screenshot_7EB52209-2853-4CCD-9A53-9351D708AD4B.png */,
 				1DB119D42A01181E00FBA764 /* AppDelegate.swift */,
 				1DB119D62A01181E00FBA764 /* SceneDelegate.swift */,
-				1DB119D82A01181E00FBA764 /* ViewController.swift */,
+				1DB11A062A0118CF00FBA764 /* CollectionViewController.swift */,
+				1DB11A082A0118F200FBA764 /* CollectionViewCell.swift */,
+				1DB119D82A01181E00FBA764 /* SwipeSelectingCollectionView.swift */,
+				1DB11A042A01188400FBA764 /* SwipeSelectingGestureRecognizer.swift */,
 				1DB119DA2A01181E00FBA764 /* Main.storyboard */,
 				1DB119DD2A01181F00FBA764 /* Assets.xcassets */,
 				1DB119DF2A01181F00FBA764 /* LaunchScreen.storyboard */,
@@ -233,6 +245,7 @@
 			files = (
 				1DB119E12A01181F00FBA764 /* LaunchScreen.storyboard in Resources */,
 				1DB119DE2A01181F00FBA764 /* Assets.xcassets in Resources */,
+				1DFA99682A012B04003CF4C7 /* simulator_screenshot_7EB52209-2853-4CCD-9A53-9351D708AD4B.png in Resources */,
 				1DB119DC2A01181E00FBA764 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB119D92A01181E00FBA764 /* ViewController.swift in Sources */,
+				1DB11A072A0118CF00FBA764 /* CollectionViewController.swift in Sources */,
+				1DB119D92A01181E00FBA764 /* SwipeSelectingCollectionView.swift in Sources */,
+				1DB11A092A0118F200FBA764 /* CollectionViewCell.swift in Sources */,
+				1DB11A052A01188400FBA764 /* SwipeSelectingGestureRecognizer.swift in Sources */,
 				1DB119D52A01181E00FBA764 /* AppDelegate.swift in Sources */,
 				1DB119D72A01181E00FBA764 /* SceneDelegate.swift in Sources */,
 			);
@@ -445,6 +461,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +490,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
